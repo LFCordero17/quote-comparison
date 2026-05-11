@@ -112,7 +112,7 @@ Please provide:
 Be concise, practical, and use markdown formatting."""
 
                     genai.configure(api_key=api_key)
-                    model = genai.GenerativeModel("gemini-2.0-flash")
+                    model = genai.GenerativeModel("gemini-2.0-flash-lite")
                     response = model.generate_content(prompt)
 
                     st.divider()
